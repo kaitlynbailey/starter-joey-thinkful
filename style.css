@@ -1,0 +1,28 @@
+h1 {
+font-size: 52px;
+display: flex;
+justify-content: center;
+}
+
+nav {
+    background-color: #343434 ;
+    padding: 0px;
+    margin: 0px;
+    color: #737373;
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (min-width: 600px){
+    h1 {
+        font-size: 48px;
+    }
+
+    ul lit {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
